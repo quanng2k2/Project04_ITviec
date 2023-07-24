@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  padding-left: 0 !important;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper .sidebar {
+  background: rgb(225, 165, 165);
+  flex: 1;
+  height: 100vh;
+  width: 260px;
+  padding: 20px 10px;
+  position: relative;
+  bottom: 0;
+  top: 0;
+  overflow-y: auto;
+  transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.profile img {
+  height: 50px;
+  width: 100px;
+}
+
+.wrapper .sidebar .profile img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.wrapper .sidebar .profile h3 {
+  color: #0e0e0e;
+  margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p {
+  color: rgb(20, 21, 21);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.wrapper .sidebar ul li a {
+  display: block;
+  padding: 13px 30px;
+  border-bottom: 1px solid #0a0a0a;
+  color: rgb(238, 231, 231);
+  font-size: 16px;
+  position: relative;
+  text-decoration: none;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active {
+  color: #121213;
+  font-weight: bold;
+  background-color: rgb(243, 238, 238);
+  border-right: 10px solid rgb(50, 193, 237);
+  border-radius: 10px 0 60px 10px;
+  text-decoration: none;
+  height: 50px;
+}
+
+.button-logout {
+  width: 190px;
+}

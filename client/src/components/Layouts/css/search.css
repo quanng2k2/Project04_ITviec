@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title-search {
+  font-weight: 700;
+  color: aliceblue;
+  padding-top: 100px;
+}
+
+.form-search {
+  padding-top: 20px;
+}
+
+.container-from {
+  position: relative;
+  height: 350px;
+  padding-left: 160px !important;
+  padding-right: 160px !important;
+  background: linear-gradient(to right, #000000 0%, #000000 30%, #750000 100%);
+}
+
+.flex-form {
+  display: flex;
+  gap: 10px;
+}
+
+.input-form-search {
+  width: 380px;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+.button-form-search {
+  width: 200px;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: #ed1b2f;
+  color: #ece6e6;
+  font-weight: 700;
+}
+
+.search-suggestions {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.title-category {
+  border: 0.5px solid rgb(57, 56, 55);
+  border-radius: 20px;
+  padding: 6px 12px;
+}
+
+.title-category:hover {
+  background-color: rgb(74, 72, 70);
+}
+
+.flex-search-suggestions {
+  display: flex;
+  gap: 30px;
+  margin-left: 10px;
+}
+
+.text-search-suggestions {
+  color: rgb(220, 210, 217);
+}
+
+.image-logo-header {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.foo-search {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+.fa-right-to-bracket {
+  color: #ed1b2f;
+  margin-left: 10px;
+}
+
+.img-foo {
+  margin-right: 10px;
+}
+
+.flex-search-suggestions a {
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper-search:hover {
+  background-color: pink;
+  border-radius: 5px;
+}
+
+.container-search {
+  border-radius: 5px;
+  width: 380px;
+  background-color: rgb(248, 245, 247);
+  color: white;
+  text-decoration: none;
+  height: auto;
+}
+
+.img-result img {
+  width: 70px;
+  height: 40px;
+}
+
+.item-restaurant {
+  padding: 10px 10px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-restaurant .name-res {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #252525;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 1px;
+  padding-top: 5px;
+  width: 250px;
+}
+
+.address-res {
+  font-size: 14px;
+  font-weight: 600;
+  color: #252525;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 1px;
+  padding-top: 5px;
+  width: 200px;
+}

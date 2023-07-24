@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-profile {
+  margin-top: 55px;
+  display: flex;
+  gap: 20px;
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link.active2 {
+  background-color: #1e1d1d;
+  color: aliceblue;
+}

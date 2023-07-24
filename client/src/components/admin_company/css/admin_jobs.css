@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-admin-companys {
+  flex: 4;
+  font-family: system-ui;
+  padding: 20px 20px 0 20px;
+  height: 100vh;
+  overflow-y: auto;
+  background-image: linear-gradient(
+    to left,
+    rgb(240, 202, 225),
+    rgb(246, 123, 52)
+  );
+  height: 100vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.title-company-admin {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(35, 33, 33);
+}
+
+.white-label {
+  color: rgb(23, 24, 23);
+}
+
+.col-12 {
+  margin-top: 20px;
+}

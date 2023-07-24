@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--i-body-font-family);
+  /* -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: var(--i-body-font-size);
+  font-weight: var(--i-body-font-weight);
+  line-height: var(--i-body-line-height);
+  color: var(--i-body-color);
+  background-color: var(--i-body-bg); */
+}
+
+.contair-homepage {
+  background-image: linear-gradient(
+    to left,
+    rgb(236, 146, 56),
+    rgb(234, 133, 195)
+  );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  color: #111010;
+}

@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title-admin-company {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.container-admin-company {
+  /* margin-left: 22%; */
+  flex: 4;
+  font-family: system-ui;
+  padding: 20px 20px 0 20px;
+  height: 100vh;
+  overflow-y: auto;
+  background-image: linear-gradient(
+    to left,
+    rgb(239, 181, 216),
+    rgb(246, 123, 52)
+  );
+  height: 100vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.container-flex-chill {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Định nghĩa 3 cột */
+  gap: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-form-compa {
+  outline: none;
+  padding: 10px;
+  border-radius: 20px 0 10px 0;
+  border: 2px solid rgb(70, 219, 36);
+  /* outline: none; */
+  width: 250px;
+}
+
+/* 12 */
+.btn-12 {
+  margin-left: 20px;
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  box-shadow: none;
+  width: 130px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+
+.btn-12 span {
+  background: rgb(110, 231, 86);
+  font-weight: bold;
+  color: rgb(3, 28, 52);
+  background: linear-gradient(
+    0deg,
+    rgb(81, 200, 83) 0%,
+    rgb(105, 224, 111) 100%
+  );
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 40px;
+
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn-12 span:nth-child(1) {
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+
+/* css table */
+.table {
+  margin-top: 30px;
+}
+
+.table thead {
+  opacity: 0.7;
+  color: #000;
+}
+
+.table tbody {
+  opacity: 0.7;
+  color: #000;
+}
+
+.overflow-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 30px;
+}

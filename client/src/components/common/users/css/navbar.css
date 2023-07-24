@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.icon-name {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.fa-circle-user {
+  font-size: 25px;
+  color: #e1dbdb;
+}
+
+li {
+  list-style: none;
+}
+
+.logo-page {
+  height: 2rem;
+}
+
+.nav-link {
+  color: rgb(188, 186, 186) !important;
+}
+
+.box {
+  background-color: #302e2f;
+  color: #e1dbdb;
+  text-align: start;
+}
+
+.box2 {
+  background-color: #302e2f;
+  color: #e1dbdb;
+  text-align: start;
+  position: relative;
+  left: -10px;
+}
+
+.box3 {
+  background-color: #302e2f;
+  color: #e1dbdb;
+  text-align: start;
+  position: relative;
+  left: -10px;
+  width: 450px;
+}
+
+.box3 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0;
+}
+
+.box3 ul li {
+  padding: 10px 20px;
+}
+
+.box3 ul li:hover {
+  background-color: #e1dbdb;
+  color: #302e2f;
+  cursor: pointer;
+}
+
+.item {
+  list-style: none;
+  padding: 8px 10px;
+}
+
+.item + .item:hover,
+.item:first-child:hover {
+  background-color: #e1dbdb;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.with-arrow:before {
+  content: "";
+  position: absolute;
+  top: -23px;
+  left: 5%;
+  border: solid transparent;
+  height: 0;
+  width: 25px;
+  pointer-events: none;
+  border-bottom-color: #302e2f;
+  border-width: 12px;
+  margin-top: -1px;
+  z-index: 1000000;
+}
+
+.nav-link {
+  text-decoration: none; /* Tắt đường kẻ chân */
+  color: white; /* Đặt màu trắng */
+}
+
+.nav-link :hover {
+  color: rgb(54, 53, 53);
+}

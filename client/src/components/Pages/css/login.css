@@ -1,0 +1,98 @@
+.underline {
+  text-decoration: underline;
+  text-decoration-color: rgb(15, 15, 15);
+  text-shadow: 10;
+  text-align: center;
+}
+
+.container-login {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  padding: 0 80px;
+  gap: 50px;
+}
+
+.hearder {
+  display: flex;
+  align-items: center;
+}
+
+.hearder img {
+  height: 30px;
+  width: 70px;
+}
+
+.fa-google {
+  color: black;
+}
+
+.login-google {
+  padding: 10px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid red;
+  background-color: white;
+  color: red;
+}
+
+.input-email {
+  width: 400px;
+  padding: 12px;
+  outline: none;
+}
+
+.input-email:hover {
+  border: 2px solid #f55767;
+  border-radius: 5px;
+  box-shadow: rgba(253, 65, 65, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.input-email2 {
+  width: 400px;
+  padding: 12px;
+  outline: none;
+  padding-right: 30px; /* Để tạo không gian cho icon */
+}
+
+.icon-eye {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-eye-slash,
+.fa-eye {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.button-loginWeb {
+  width: 400px;
+  margin-top: 20px;
+  background-color: #ed1b2f;
+  margin-top: 10px;
+}
+
+.foo-login {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-pass {
+  text-decoration: none;
+}
+
+.fa-google-plus-g {
+  color: black;
+}
+
+.toast-container-custom {
+  margin-top: 40px;
+  z-index: 999999999;
+}
